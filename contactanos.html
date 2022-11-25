@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISIL - Aprende a tu manera</title>
+
+    <!-- Enlazar a la libreria de iconos gratuitos de font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header id="cabecera" class="espaciado">
+        <div class="contenedor">
+            <!-- <h1>ISIL</h1>
+            <p>Aprende a tu manera</p> -->
+
+            <nav class="menu-barra">
+                <div class="logo">
+                    <a href="index.html" title="Aprende a tu manera">
+                        <img src="imagenes/logo-isil.png" class="img_ajustarancho">
+                    </a>
+                </div> <!-- logo -->
+
+                <ul class="menu-opciones">
+                    <div class="menu-items">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="carreras.html">Carreras</a></li>
+                        <li><a href="extension.html">Extension</a></li>
+                        <li><a href="investigaciones.html">Investigaciones</a></li>
+                        <li><a href="contactanos.html">Contactanos</a></li>
+                    </div> <!-- menu items -->
+                </ul> <!-- menu opciones -->
+            </nav> <!-- menu barra -->
+        </div> <!-- contenedor -->
+    </header> <!-- cabecera -->
+
+    <section class="barra-ubicacion">
+        <div class="contenedor">
+            <h1>Contactanos</h1>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Inicio > Contactanos
+            </p>
+        </div> <!-- contenedor -->
+    </section> <!-- bara-ubicacion espaciado -->
+
+    <section id="contactanos-mapa">
+        <iframe class="video-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5669063380806!2d-76.95062432394694!3d-12.073291642397262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e435a93c41%3A0xcdaaa71f277efd64!2sISIL%20-%20La%20Molina!5e0!3m2!1ses!2spe!4v1669319611074!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="contactanos-formulario" class="espaciado">
+        <div class="contenedor">
+            <div class="row">
+                <div class="columna">
+                    <form action="" method="post">
+                        <h3>Quiero recibir mas informacion</h3>
+                        <div>
+                            <input type="text" placeholder="Ingresa tu nombre" 
+                            class="form-campo" required>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Ingresa tu apellido" 
+                            class="form-campo" required>
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Ingresa tu celular" 
+                            class="form-campo" required>
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Ingresa tu correo electronico" 
+                            class="form-campo" required>
+                        </div>
+                        <div>
+                            <select required class="form-campo">
+                                <option value="" selected hidden>(escoge una carrera)</option>
+                                <option value="1">Administracion</option>
+                                <option value="2">Diseño UX</option>
+                                <option value="3">Desarrollo de Software</option>
+                                <option value="4">Redes y Comunicaciones</option>
+                                <option value="4">Sitemas de Informacion</option>
+                                <option value="4">Comunicacion Integral</option>
+                            </select>
+                        </div>
+                        <p><input type="checkbox" required>He leido y acepto los <a href="#">terminos y condiciones</a></p>
+                        <p><input type="submit" value="Enviar" class="boton-enviar"></p>
+                    </form>
+                </div> <!-- columna -->
+                <div class="columna">
+                    <img src="imagenes/contacto-chica.png" alt="">
+                </div> <!-- columna -->
+            </div> <!-- row -->
+        </div> <!-- contenedor -->
+    </section> <!-- contactanos-formulario -->
+
+    <footer id="pie"> 
+        <div class="contenedor">
+            <div class="row">
+                <div class="copyright">
+                    &copy; ISIL | Derechos reservados
+                </div> <!-- Copyright -->
+                <div class="correo-telefono">
+                    <a href="mailto:admision@isil.pe?subject=Necesito Informacion">
+                        <i class="fa-solid fa-envelope"></i> admision@isil.pe</a>
+                    <a href="tel:51017060000">
+                        <i class="fa-solid fa-phone"></i> +51 1 706-0000</a> 
+                </div> <!-- correo-telefono -->
+                <div class="redessociales">
+                    <a title="Sigenos en Facebook" href="https://www.facebook.com/ISILpe" target="_blank">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    <a title="Sigenos en Twitter" href="https://twitter.com/isil_pe?lang=es" target="_blank">
+                        <i class="fa-brands fa-twitter"></i></a>
+                    <a title="Sigenos en Youtube" href="https://www.youtube.com/c/ISILPER%C3%9AAprendeHaciendo" target="_blank">
+                        <i class="fa-brands fa-youtube"></i></a>                       
+                </div> <!-- redessociales -->
+            </div> <!-- row -->
+        </div> <!-- contenedor -->
+    </footer> <!-- pie --> 
+
+    <!-- Boton para ir rapidamente al inicio de la pagina  -->
+    <a href="#" id="scroll-arriba">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+</body>
+</html>
